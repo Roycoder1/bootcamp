@@ -1,0 +1,57 @@
+body
+{
+	font-family: Arial, Times New Roman;
+	width: 99%;
+	background-color:  #e6ccb3;
+	text-align: center;
+}
+
+.nav1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-style: italic;
+}
+nav ul 
+{
+	list-style-type: none;
+}
+nav ul a 
+{
+	text-decoration: none;
+	color: white;
+}
+.banner
+{
+
+	background-size: cover;
+}
+.image_banner{
+	width: 100%; height: 255.143px; margin: 0px;
+
+}
+
+@media(max-width: 1700px)
+{
+	.image_banner{
+		width: 100%	;
+	}
+	.article
+	{
+		display: flex;
+	}
+	.section
+	{
+		width: 80%;
+	}
+	.article .aside
+	{
+		width: 300px;
+		border: 2px solid darkred;
+	}
+	.footer1
+	{
+		display: flex;
+
+	}
