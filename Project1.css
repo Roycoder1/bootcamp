@@ -63,7 +63,15 @@ nav ul a
 	}
 	.tweet
 	{
-		margin-right: 8px ;
+		margin-right: 208px ;
+	}
+	.photos_trip
+	{
+		margin-right: 110px;
+	}
+	.friends
+	{
+		margin-left: 20px;
 	}
 	.friends ul
 	{
@@ -83,7 +91,7 @@ nav ul a
 	}
 
 	.aside:hover {
-		transform: scale(1.5);
+		transform: scale(1.2);
 	}
 	.nav1
 	{
@@ -95,7 +103,12 @@ nav ul a
 	}
 
 
-
+	.audio
+	{
+		position: absolute;
+		top: 890px;
+		left: 19px;
+	}
 
 	footer
 	{
@@ -117,5 +130,5 @@ nav ul a
 		justify-content: space-between;
 		margin-left: 55px;
 		margin-right: 55px;
+		margin-top: 50px;
 	}
-
