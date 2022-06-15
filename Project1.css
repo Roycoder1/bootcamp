@@ -28,7 +28,7 @@ nav ul a
 	background-size: cover;
 }
 .image_banner{
-	width: 100%; height: 255.143px; margin: 0px;
+	width: 100%; height: 350.143px; margin: 0px;
 
 }
 
@@ -115,4 +115,7 @@ nav ul a
 	{
 		display: flex;
 		justify-content: space-between;
+		margin-left: 55px;
+		margin-right: 55px;
 	}
+
