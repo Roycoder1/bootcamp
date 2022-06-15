@@ -48,7 +48,7 @@ nav ul a
 	.article .aside
 	{
 		width: 300px;
-		border: 2px solid darkred;
+		border: 3px solid darkred;
 		margin-right: 100px;
 
 	}
@@ -106,8 +106,9 @@ nav ul a
 	.audio
 	{
 		position: absolute;
-		top: 890px;
+		top: 987px;
 		left: 19px;
+		right: 530px;
 	}
 
 	footer
@@ -132,3 +133,37 @@ nav ul a
 		margin-right: 55px;
 		margin-top: 50px;
 	}
+	@keyframes
+	{
+		0% {background-color: #45CEEF;}
+		25% {background-color: #FFF5A5;}
+		50% {background-color: #FFD4DA;}
+		75% {background-color: #99D2E4;}
+		100% {background-color: #D8CAB4;}
+	}
+	.section h2
+	{
+		background-color: #45CEEF;    
+		-webkit-animation: pulse 40s infinite alternate;
+	}
+	@keyframes color {
+		0%   { background: #33CCCC; }
+		20%  { background: #33CC36; }
+		40%  { background: #B8CC33; }
+		60%  { background: #FCCA00; }
+		80%  { background: #33CC36; }
+		100% { background: #33CCCC; }
+	}
+
+	body {
+		background: #33CCCC; /* Fallback */
+		animation: color 9s infinite linear;
+		text-align: center;
+		padding: 2em;
+	}
+	h1 {
+		text-align: center;
+		font-family: 'Kavoon', sans-serif;
+		font-size: 2.5em;
+	}
+	
